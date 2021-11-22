@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black;
+    */
+}
+
+body{
+    width: 100%;
+    font-family: "Roboto","Helvetica Neue", "Arial";
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+.header-element{
+    width: 100%;
+    padding: .6em .2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head-container, .main-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-element main{
+    height: 30vh;
+}
+
+.news, .islands{
+    font-size: .8em;
+}
+
+.islands li{
+    border-right: 1px solid #000;
+    padding: 0 .5em;
+    text-transform: uppercase;
+}
+
+.islands :last-of-type{
+    border: none;
+}
+
+.news p span{
+    color: #cd0000;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.main{
+    background-color:#cd0000;
+    min-height: 20vh;
+}
+
+.head, .navegator{
+    background-color: #e6e6e6;
+}
+
+.navegator{
+    margin-top: .3em;
+    border-bottom: 1px solid #706868;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.islands ul li{
+    display: inline;
+}
+
+.main-element.title{
+    margin-left: 8%;
+}
+
+.title svg{
+    width: 20em;
+    fill: #fff;
+}
+
+nav svg{
+    width: 1.5em;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 1em;
+}
+
+a{
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.menu-hamburguer span{
+    display: block;
+    width: 35px;
+    height: 6px;
+    margin: .4em;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.login button{
+    padding: .2em .5em;
+    border-radius: 5px;
+    border: none;
+    vertical-align: middle;
+}
+
+.registration{
+    background-color: #ffc700;
+    font-weight: 700;
+    padding: .5em .5em;
+}
+
+button span{
+    vertical-align: super;
+}
+
+button svg{
+    width: 1.8em;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.col-1{
+    width: 10%;
+}
+.col-1 img{
+    width: 100%;
+}
+.col-8{
+    width: 70%;
+}
+.col-element .publi{
+    width: 80%;
+    min-height: 25vh;
+}
+
+.publi img{
+    width: 80%;
+    display: block ;
+    margin: 0 auto;
+}
+
+.news-element{
+    width: 71%;
+}
+
+.title h1{
+    font-size: 2.44rem;
+    font-weight: 900;
+    line-height: 1.1em;
+}
+
+.place p{
+    font-size: 1.1em;
+    text-transform: uppercase;
+    margin: .5em 0;
+}
+
+.title h1{
+    font-weight: 900;
+}
+
+.body{
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+
+.author{
+    margin-top: .5em;
+}
+
+.col-2{
+    display: flex;
+    flex-flow: row;
+    margin-top: 1em;
+    gap: 1em;
+}
+
