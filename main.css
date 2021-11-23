@@ -247,9 +247,9 @@ button svg{
 
 section{
     width: 100%;
+    overflow: hidden;
     margin: 0 auto;
     display: flex;
-    flex-flow: row nowrap;
     justify-content: center;
 }
 
@@ -350,10 +350,13 @@ section{
     margin-left: 1em;
 }
 
-.lateral-publi{
-    padding: 1em 1em 0 0;
+.container-publi-right{
+    padding: 1em 0 0 1em;  
 }
 
+.container-publi-left{
+    padding: 1em 1em 0 0;
+}
 
 .publi{
     margin-top: .5em;
@@ -371,5 +374,3 @@ section{
 .new-element-left, .new-element-right{
     width: 49%;
 }
-
-
