@@ -5,13 +5,14 @@
         <title>Ultima hora</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="img/icon.png">
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
         <header>
             <div class="header-element head">
                 <div class="head-container">
-                    <div class="head-element news">
+                    <div class="head-element news-header">
                         <p><span>Hoy es noticia:</span> Hito farmacéutico - Multas - Ordenanza de animales</p>
                     </div>
                     <div class="head-element islands">
@@ -35,8 +36,91 @@
                     </div>
                     <div class="main-element login">
                         <button><span>Iniciar sesión</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.05 6.6L5.99 5.54c3.57-3.46 9.27-3.37 12.73.19s3.37 9.27-.19 12.73-9.27 3.37-12.73-.19c-.1-.1-.2-.21-.3-.32l1.06-1.06c2.7 3.14 7.43 3.51 10.58.81s3.51-7.43.81-10.58-7.43-3.51-10.58-.81c-.11.09-.22.19-.32.29z"></path><path d="M5.86 12.29H0v-1.5h5.86M12.5 18c1.01 0 1.99-.26 2.86-.77.86-.47 1.6-1.15 2.14-1.97-.01-.52-.33-.99-.94-1.42-.53-.37-1.21-.66-2.04-.9-.75-.2-1.42-.31-2.03-.31s-1.28.1-2.03.31c-.83.23-1.5.53-2.02.9-.61.43-.93.91-.94 1.42.54.82 1.28 1.5 2.14 1.97.91.51 1.86.77 2.86.77zm0-11c-.44 0-.85.11-1.24.35A2.563 2.563 0 0010 9.54c0 .45.11.87.34 1.26.23.39.53.71.92.94a2.4 2.4 0 002.48 0c.39-.23.69-.54.92-.94.23-.39.34-.81.34-1.26 0-.45-.11-.87-.34-1.26-.22-.39-.54-.71-.92-.93A2.4 2.4 0 0012.5 7z"></path><path d="M3.68 8.61v5.87h-1.5V8.61"></path></svg></button>
-                        <button class="registration">Regístrate</button>
+                        <button class="registration"><i>Regístrate</i></button>
                     </div>
+                </div>
+            </div>
+            <div class="desplegable">
+                <div class="buscador">
+                    <input type="text" placeholder=" + Buscar">
+                </div>
+                <div class="desplegable-element">
+                    <div class="desplegable-item"> 
+                        <p>Portada</p>
+                    </div>
+                </div>
+                <div class="desplegable-element">
+                    <div class="desplegable-item"> 
+                        <p>Noticias</p>
+                    </div>
+                </div> 
+                <div class="desplegable-element">
+                    <div class="desplegable-item"> 
+                        <p>Sucesos</p>
+                    </div>
+                </div> 
+                <div class="desplegable-element">
+                    <div class="desplegable-item"> 
+                        <p>Deportes</p>
+                    </div>
+                </div> 
+                <div class="desplegable-element">
+                    <div class="desplegable-item"> 
+                        <p>Opinión</p>
+                    </div>
+                </div> 
+                <div class="desplegable-element">
+                    <div class="desplegable-item"> 
+                        <p>Xaloc</p>
+                    </div>
+                </div> 
+                <div class="desplegable-element">
+                    <div class="desplegable-item"> 
+                        <p>Participa</p>
+                    </div>
+                </div> 
+                <div class="desplegable-element">
+                    <div class="desplegable-item"> 
+                        <p>Ocio</p>
+                    </div>
+                </div> 
+                <div class="desplegable-element">
+                    <div class="desplegable-item"> 
+                        <p>Vips</p>
+                    </div>
+                </div>
+                <div class="desplegable-element">
+                    <div class="desplegable-item"> 
+                        <p>Guía Útil</p>
+                    </div>
+                </div> 
+                <div class="desplegable-element">
+                    <div class="desplegable-item"> 
+                        <p>Monográficos</p>
+                    </div>
+                </div>
+                <div class="desplegable-element">
+                    <div class="desplegable-item"> 
+                        <p>Servicios</p>
+                    </div>
+                </div>
+                <div class="desplegable-element rrss">
+                    <ul>
+                        <li>Siguenos</li>
+                        <li>$</li>
+                        <li>@</li>
+                        <li>&</li>
+                        <li>%</li>
+                        <li>&</li>
+                        <li>@</li>
+                        <li>@</li>                  
+                    </ul>
+                </div>
+                <div class="desplegable-element contact">
+                    <ul>
+                        <li>Contratar publicidad</li>
+                        <li>Contactar</li>                
+                    </ul>
                 </div>
             </div>
             <nav class="header-element navegator">
@@ -59,40 +143,106 @@
             </nav>
         </header>
         <section>
-            <div class="col-1">
-                <img src="img/3.jfif">
+            <div class="container-publi-left">
+                <img src="img/3.webp">
             </div>
-            <div class="col-8">
+            <div class="container-col-central">
                 <div class="col-element publi">
-                    <img src="img/2.jfif">
+                    <img src="img/2.webp">
                 </div>
                 <div class="col-element col-2">
-                    <div class="col-element news">
-                        <div class="news-element image">
-                            <img src="img/1.jfif">
+                    <div class="col-principal">
+                        <div class="col-element news">
+                            <div class="news-element image">
+                                <img src="img/1.webp">
+                            </div>
+                            <div class="news-element subtitle">
+                                <p>Pandemia de coronavirus</p>
+                            </div>
+                            <div class="news-element title">
+                                <h1>Los hospitales ultiman los planes de contingencia para afrontar la gripe y la COVID</h1>
+                            </div>
+                            <div class="news-element body">
+                                <p>Por ahora no se han tenido que aplicar en ningún hospital, ya que la cifra de personas ingresadas por coronavirus aún está «controlada».</p>
+                            </div>
+                            <div class="news-element author">
+                                <p>Margalida Ramis</p>
+                            </div>
                         </div>
-                        <div class="news-element place">
-                            <p>Manacor</p>
+                        <div class="col-4 noticia">
+                            <div class="noticia-element">
+                                <div class="noticia-item image">
+                                    <img src="img/18.webp">
+                                </div>
+                                <div class="noticia-item title-new">
+                                    <h1>La COVID-19 continúa su expansión y Mallorca ya está en riesgo alto</h1>
+                                </div>  
+                            </div>
+                            <div class="noticia-element">
+                                <div class="noticia-item image">
+                                    <img src="img/19.webp">
+                                </div>
+                                <div class="noticia-item title-new">
+                                    <h1>Los hospitales ultiman los planes de contingencia para afrontar la gripe y la COVID</h1>
+                                </div>
+                            </div>
+                            <div class="noticia-element">
+                                <div class="noticia-item image">
+                                    <img src="img/20.webp">
+                                </div>
+                                <div class="noticia-item title-new">
+                                    <h1>España debate cerrar el interior de la hostelería a 23.00 y las discotecas, a la 01.00</h1>
+                                </div>
+                            </div>
+                            <div class="noticia-element">
+                                <div class="noticia-item image">
+                                    <img src="img/21.webp">
+                                </div>
+                                <div class="noticia-item title-new">
+                                    <h1>Los expertos definen los nuevos grupos que recibirán la tercera dosis</h1>
+                                </div>
+                            </div>
                         </div>
-                        <div class="news-element title">
-                            <h1>La mujer que mató a cuchilladas a su marido en Manacor acepta 15 años de cárcel</h1>
-                        </div>
-                        <div class="news-element body">
-                            <p>La acusada, de 32 años y origen hondureño, se ha declarado culpable de un delito homicidio con la circunstancia agravante de parentesco y deberá indemnizar al hijo de la víctima con 90.000 euros y con 150.000 para los padres.</p>
-                        </div>
-                        <div class="news-element author">
-                            <p>Guillermo Esteban</p>
+                        <div class="two-news">
+                            <div class="new-element-left">
+                                <div class="element-left-image">
+                                    <img src="img/10.jfif">
+                                </div>
+                                <div class="element-right-subtitle">
+                                    <p>Llucmajor</p>
+                                </div>
+                                <div class="element-left-title">
+                                    <h1>Marina Díez, exconcursante de Gran Hermano, desahuciada del bar de la tercera edad de Badia Gran</h1>
+                                </div> 
+                                <div class="news-element-author">
+                                    <p>Joan Socies</p>
+                                </div> 
+                            </div>
+                            <div class="new-element-right">
+                                <div class="element-right-image">
+                                    <img src="img/11.jfif">
+                                </div>
+                                <div class="element-right-subtitle">
+                                    <p>Palma</p>
+                                </div>
+                                <div class="element-right-title">
+                                    <h1>Los hospitales ultiman los planes de contingencia para afrontar la gripe y la COVID</h1>
+                                </div>
+                                <div class="news-element-author">
+                                    <p>Julio Bastida</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-element pub">
                         <div class="col-element image">
-                            <img src="img/4.jfif">
+                            <img src="img/4.webp">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-1">
-                <img src="img/3.jfif">
+            <div class="container-publi-right">
+                <img src="img/3.webp">
             </div>
         </section>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
