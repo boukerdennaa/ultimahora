@@ -134,16 +134,58 @@ a{
     text-decoration: none;
 }
 
-.menu-hamburguer span{
-    display: block;
-    width: 35px;
-    height: 6px;
-    margin: .4em;
-    background-color: #fff;
-    border-radius: 10px;
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
     cursor: pointer;
-}
-
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .menu-btn_burgir {
+    width: 35px;
+    height: 5px;
+    background: #fff;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .menu-btn_burgir::after,
+  .menu-btn_burgir::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 5px;
+    background: #fff;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .menu-btn_burgir::before {
+    transform: translateY(-13px);
+  }
+  
+  .menu-btn_burgir::after {
+    transform: translateY(13px);
+  }
+  
+  .menu-btn.open .menu-btn_burgir {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+  }
+  
+  .menu-btn.open .menu-btn_burgir::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+  
+  .menu-btn.open .menu-btn_burgir::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
+  
 .desplegable{
     position: absolute;
     top: 14%;
@@ -153,6 +195,10 @@ a{
     background-color: #242424;
     border-bottom: 2px solid var(--principal);
     opacity: 0;
+}
+
+.desplegable.open{
+    opacity: 1;
 }
 
 .desplegable .buscador{
@@ -194,9 +240,7 @@ a{
     border: none;
 }
 
-.rrss
-
-:first-child{
+.rrss :first-child{
     padding-right: 1em;
     font-size: .9em;
 }
