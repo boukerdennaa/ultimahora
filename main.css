@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black;
-    */
+   
 }
 
 body{
@@ -31,9 +30,6 @@ header{
     align-items: center;
 }
 
-.header-element main{
-    height: 30vh;
-}
 
 .news, .islands{
     font-size: .8em;
@@ -57,7 +53,7 @@ header{
 
 .main{
     background-color:#cd0000;
-    min-height: 20vh;
+    min-height: 10vh;
 }
 
 .head, .navegator{
@@ -98,11 +94,18 @@ nav{
 nav ul li{
     display: inline;
     margin: 0 1em;
+    vertical-align: sub;
+}
+
+.navegator-element ul li a{
+    font-size: .96rem;
+    font-weight: 700;
+    font-family: "Roboto";
 }
 
 a{
     cursor: pointer;
-    color: #000;
+    color: #323232;
     text-decoration: none;
 }
 
@@ -118,6 +121,7 @@ a{
 
 .login button{
     padding: .2em .5em;
+    height: 3.5vh;
     border-radius: 5px;
     border: none;
     vertical-align: middle;
@@ -134,11 +138,12 @@ button span{
 }
 
 button svg{
+    margin-left: .2em;
     width: 1.8em;
 }
 
 section{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-flow: row nowrap;
@@ -146,13 +151,14 @@ section{
 }
 
 .col-1{
-    width: 10%;
+    width: 20%;
+    height: 100vh;
 }
 .col-1 img{
     width: 100%;
 }
 .col-8{
-    width: 70%;
+    width: 60%;
 }
 .col-element .publi{
     width: 80%;
@@ -166,7 +172,7 @@ section{
 }
 
 .news-element{
-    width: 71%;
+    width: 80%;
 }
 
 .title h1{
@@ -199,5 +205,14 @@ section{
     flex-flow: row;
     margin-top: 1em;
     gap: 1em;
+}
+
+.col-element .pub{
+    height: 40vh;
+}
+
+.col-element .news{
+    width: 70%;
+    padding-left: 2%;
 }
 
