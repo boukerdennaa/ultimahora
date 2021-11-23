@@ -141,6 +141,7 @@ a{
     margin: .4em;
     background-color: #fff;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .desplegable{
@@ -156,10 +157,6 @@ a{
 
 .desplegable .buscador{
     width: 100%;
-}
-
-.desplegable:hover{
-    opacity: 1;
 }
 
 .buscador input{
@@ -197,7 +194,9 @@ a{
     border: none;
 }
 
-.rrss :first-child{
+.rrss
+
+:first-child{
     padding-right: 1em;
     font-size: .9em;
 }
@@ -222,7 +221,7 @@ a{
 
 .login button{
     padding: .2em .5em;
-    height: 3.5vh;
+    min-height: 3.5vh;
     border-radius: 5px;
     border: none;
     vertical-align: middle;
@@ -373,4 +372,21 @@ section{
 
 .new-element-left, .new-element-right{
     width: 49%;
+}
+
+.element-left-image img{
+    width: 100%;
+    height: auto;
+    margin-bottom: -4px;
+}
+
+.element-right-image img{
+    height: 22.5vh;   
+}
+
+.element-left-subtitle, .element-left-title, .element-left-author{
+    width: 100%;
+    background-color: var(--principal);
+    padding: .2em;
+    color: #fff;
 }
