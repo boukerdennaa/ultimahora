@@ -1,0 +1,29 @@
+/*Contents*/
+a {
+	svg {
+		width: 1.5em;
+	}
+	cursor: pointer;
+	color: #323232;
+	text-decoration: none;
+}
+
+.publi {
+	img {
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+	margin-top: .5em;
+}
+
+.title {
+	svg {
+		margin-top: 1em;
+		width: 20em;
+		fill: $white;
+	}
+
+	cursor: pointer;
+	margin-bottom: 1em;
+}

@@ -1,0 +1,76 @@
+/*====================
+======Typography======
+======================*/
+
+h1, h2, h3, h4, h5, h6, a, p{
+    color: $black;
+}
+
+h1, h2, h3, h4 {
+    font-family: $font-stack;
+}
+
+.title {
+    h1 {
+        font-size: 2.48rem;
+        font-weight: 900;
+        line-height: 1.1em;
+    }
+}
+
+.title-new {
+	h1 {
+		font-size: 1em;
+	}
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h4 {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.subtitle {
+	p {
+		font-size: 1.1em;
+		text-transform: uppercase;
+		margin: .5em 0;
+		color: $color-primary;
+		color: $color-primary;
+	}
+}
+
+.news-header {
+	p {
+		span {
+			color: $color-primary;
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+	}
+	font-size: .8em;
+}
+
+.desplegable-item {
+	p {
+		text-transform: uppercase;
+		font-weight: 500;
+    }
+}
+
+.navegator-element {
+	ul {
+		li {
+			a {
+				font-size: .96rem;
+				font-weight: 700;
+			}
+		}
+	}
+}
+

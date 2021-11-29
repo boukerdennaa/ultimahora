@@ -7,6 +7,9 @@
 :root{
     --principal: #cd0000;
     --secondary: #706868;
+    --black: black;
+    --white: #e6e6e6;
+
 }
 
 body{
@@ -50,7 +53,7 @@ header{
 }
 
 .islands li{
-    border-right: 1px solid #000;
+    border-right: 1px solid var(--black);
     padding: 0 .5em;
     text-transform: uppercase;
 }

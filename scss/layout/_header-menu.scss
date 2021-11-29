@@ -1,0 +1,53 @@
+header {
+	width: 100%;
+	height: auto;
+}
+.header-element {
+	width: 100%;
+	padding: .6em .2em;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.head-container {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 1vh;
+}
+
+.news {
+	font-size: .8em;
+	margin-bottom: 2em;
+}
+
+.islands {
+	font-size: .7em;
+	li {
+		border-right: 1px solid var(--black);
+		padding: 0 .5em;
+		text-transform: uppercase;
+	}
+	&:last-of-type {
+		border: none;
+	}
+	ul {
+		li {
+			display: inline;
+		}
+	}
+}
+
+.main {
+	background-color: $color-primary;
+	min-height: 8vh;
+}
+
+.navegador-element {
+	ul {
+		li {
+			vertical-align: super;
+		}
+	}
+}
