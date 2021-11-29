@@ -13,10 +13,6 @@
 	}
 }
 
-.desplegable.open {
-	opacity: 1;
-}
-
 .buscador {
 	input {
 		width: 100%;
@@ -37,7 +33,6 @@
 }
 
 .desplegable-item {
-    
 	&::after {
 		content: "+";
 		position: absolute;
