@@ -1,12 +1,14 @@
-let menu = document.querySelector(".desplegable");
-let menubtn = document.querySelector(".menu-btn");
+let menuBtn = document.querySelector(".menu-btn");
+let menudes = document.querySelector(".desplegable");
 let menuOpen = false;
-menubtn.addEventListener("click", () => {
+menuBtn.addEventListener("click", () => {
   if (!menuOpen) {
-    menu.classList.add("open");
+    menuBtn.classList.add("open");
+    menudes.classList.add("active");
     menuOpen = true;
   } else {
-    menu.classList.remove("open");
+    menuBtn.classList.remove("open");
+    menudes.classList.remove("active");
     menuOpen = false;
   }
 });
