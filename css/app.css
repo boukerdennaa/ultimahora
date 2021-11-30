@@ -137,7 +137,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
- 
+
 img {
   border-style: none;
 }
@@ -572,6 +572,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
 nav ul li {
   display: inline;
   margin: 0 1em;
@@ -675,6 +676,7 @@ button svg {
   background-color: black;
   border-bottom: 2px solid #cc0000;
 }
+
 .desplegable .buscador {
   width: 100%;
 }
