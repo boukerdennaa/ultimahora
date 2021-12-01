@@ -1,0 +1,11 @@
+.progress-container {
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    z-index: 1500;
+}
+  
+.progress-bar {
+    background-color: $color-primary-darker;
+    height: 5px;
+    width: 0;
+}

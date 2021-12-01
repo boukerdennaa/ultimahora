@@ -1,101 +1,115 @@
-.noticia {
-	display: flex;
-	flex: row;
-	gap: 1.8em;
+.news{
+    width: 60%;
 }
 
-.noticia-element {
-	max-width: 22%;
-	img {
-		width: 100%;
-	}
+.new.full .new__subtitle{
+    margin: 0.5rem 0;
 }
 
-.two-news {
-	width: 100%;
-	display: flex;
-	flex-flow: row;
-	justify-content: center;
-	padding-top: 2em;
-	gap: 2em;
+.new.full .new__subtitle h3{
+    color: $color-primary;
+    font-size: 1rem;
+    text-transform: uppercase;
 }
 
-.new-element-left {
-	width: 49%;
+.new.full .title{
+    margin: 0.5rem 0;
 }
 
-.new-element-right {
-	width: 49%;
+.new.full .new__title h2{
+    font-size: 2.5rem;
+    font-weight: 800;
 }
 
-.element-left-image {
-	img {
-		width: 100%;
-		height: auto;
-		margin-bottom: -4px;
-	}
-}
-.element-right-image {
-	img {
-		height: 22.5vh;
-	}
+.new.full .new__description{
+    margin: 0.5rem 0;
 }
 
-.element-left-subtitle {
-	width: 100%;
-	background-color: $color-primary;
-	padding: .2em;
-	color: $white;
+.new.full .new__author{
+    margin: 0.5rem 0;
 }
 
-.element-left-title {
-	width: 100%;
-	background-color: $color-primary;
-	padding: .2em;
-	color: $white;
+.new.full .new__author p{
+    color: $grey-darkest;
 }
 
-.element-left-author {
-	width: 100%;
-	background-color: $color-primary;
-	padding: .2em;
-	color: $white;
+.new.full .new__relateds{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
 }
 
-.main-element.title {
-	margin-left: 8%;
+.new.full .new__relateds .new__related{
+    width: 30%;
 }
 
-.title {
-	svg {
-		margin-top: 1em;
-		width: 20em;
-		fill: $white;
-	}
-
-	cursor: pointer;
-	margin-bottom: 1em;
+.new.full .new__relateds .new__related-title{
+    margin: 0.5rem 0;
 }
 
-a {
-	svg {
-		width: 1.5em;
-	}
-	cursor: pointer;
-	color: $grey-darkest;
-	text-decoration: none;
+.new.full .new__relateds .new__related-title h4 a{
+    text-decoration: none;
 }
 
-.publi {
-	img {
-		width: 80%;
-		display: block;
-		margin: 0 auto;
-	}
-	margin-top: .5em;
+.new.regular{
+    width: 48%;
+}
+
+.new.regular.featured{
+    background-color: $black-brightest;
+    color: $white;
+}
+
+.new.regular .new__image{
+    max-height: 20vh;
+    overflow: hidden;
+}
+
+.new.regular .new__subtitle,
+.new.regular .new__title,
+.new.regular .new__author{
+    padding: 0.5rem;
+}
+
+.new.regular.featured .new__subtitle h3,
+.new.regular.featured .new__title h2,
+.new.regular.featured .new__author p{
+    color: $white;
+}
+
+.new.regular .new__title h2{
+
+    font-family: $font-stack;
+    font-size: 1rem;
 }
 
 
-.author {
-	margin-top: .5em;
+.new.regular .new__subtitle h3{
+    color: $color-primary;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.new.simple{
+    width: 30%;
+}
+
+.new.simple.branded{
+    background-color:hsl(199, 100%, 94%);
+}
+
+.new.simple .new__subtitle,
+.new.simple .new__title,
+.new.simple .new__author{
+    padding: 0.2rem;
+}
+
+.new.simple .new__title h2{
+    font-size: 1.2rem;
+}
+
+.new.simple .new__subtitle h3{
+    color: $color-primary;
+    font-size: 0.9rem;
+    text-transform: uppercase;
 }

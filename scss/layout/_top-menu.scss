@@ -1,0 +1,55 @@
+.top-menu{
+    background-color: $grey;
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+    padding: 0 5%;
+    width: 90%;
+}
+
+
+.top-menu__trending-news{
+
+    margin: auto 0;
+    
+    ul li{
+        font-size: 0.8rem;
+    }
+
+    ul li:first-child {
+        color: $color-primary;
+        font-weight: 600;
+    }
+
+    ul li:not(:last-child) {
+        margin-right: 0.5rem;
+    }
+
+    ul li:not(:first-child):not(:last-child)::after {
+        content: "-";
+        padding-left: 0.5rem;
+    }
+}
+
+.top-menu__islands{
+
+    margin: auto 0;
+
+    ul li{
+        font-size: 0.8rem;
+    }
+    
+    ul li{
+        text-transform: uppercase;
+    }
+
+    ul li:not(:last-child) {
+        margin-right: 0.5rem;
+    }
+
+    ul li:not(:last-child):after {
+        content: "|";
+        padding-left: 0.5rem;
+        color: $grey-darkest;
+    }    
+}

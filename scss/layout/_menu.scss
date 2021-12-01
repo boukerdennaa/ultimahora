@@ -1,54 +1,18 @@
-nav {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	ul {
-		li {
-			display: inline;
-			margin: 0 1em;
-			vertical-align: sub;
-		}
-	}
-}
+.menu{
+    background-color: $grey;
+    display: flex;
+    height: 2vh;
+    justify-content: space-between;
+    padding: 1vh 5%;
+    width: 90%;
 
-.login {
-	button {
-		padding: .2em .5em;
-		min-height: 3.5vh;
-		border-radius: 5px;
-		border: none;
-		vertical-align: middle;
-	}
-}
+    .menu__element svg{
+        height: 1.2rem;
+    }
+    
+    .menu__element h3{
 
-.registration {
-	background-color: $color-secondary;
-	font-weight: 700;
-	padding: .5em .5em;
-}
-
-button {
-	span {
-		vertical-align: super;
-	}
-	svg {
-		margin-left: .2em;
-		width: 1.8em;
-	}
-}
-
-.navegator {
-	background-color: $grey;
-	height: 4vh;
-	margin-top: .3em;
-	border-bottom: 1px solid $grey;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: .9em;
-}
-
-.head {
-	background-color: $grey;
+        font-size: 1.2rem;
+    }    
 }
 

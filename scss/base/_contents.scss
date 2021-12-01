@@ -1,29 +1,26 @@
 /*Contents*/
-a {
-	svg {
-		width: 1.5em;
-	}
-	cursor: pointer;
-	color: #323232;
-	text-decoration: none;
+
+img {
+    max-width: 100%;
+    width: 100%;
 }
 
-.publi {
-	img {
-		width: 80%;
-		display: block;
-		margin: 0 auto;
-	}
-	margin-top: .5em;
+.hidden{
+    opacity: 0;
 }
 
-.title {
-	svg {
-		margin-top: 1em;
-		width: 20em;
-		fill: $white;
-	}
+.uppercase{
+    text-transform: uppercase;
+}
 
-	cursor: pointer;
-	margin-bottom: 1em;
+.inline li{
+    display: inline;
+}
+
+.row{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    width: 100%;
 }
